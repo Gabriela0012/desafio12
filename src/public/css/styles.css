@@ -1,0 +1,29 @@
+.body{
+  margin: 0;
+}
+
+#content-wrap{
+  display: none;
+}
+
+#chat{
+  height: 250px;
+}
+
+.msg-area{
+  border-radius: 4px;
+}
+
+.msg{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.salir:hover{
+  cursor: pointer;
+}
+
+.enlace-salir{
+  color:#027f43;
+}

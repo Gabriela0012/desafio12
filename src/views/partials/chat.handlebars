@@ -1,0 +1,56 @@
+
+<div class="card col-md-4 mx-auto mt-5" id="nick-wrap">
+  <div class="card-header">
+    <h5>Introduce tu usuario</h5>
+  </div>
+            
+  <p id="nick-error"></p>
+  <div class="card-body">
+    <form id="nick-form">
+      <input type="text" id="nick-name" class="form-control">
+        <button type="submit" class="btn btn-success mt-3" id="nick-btn"><i class="fas fa-sign-in-alt"></i> Acceder</button>
+    </form>
+
+  </div>
+</div>
+
+<div class="container" id="content-wrap">   
+  <div class="row">
+    <div class="col-md-7 offset-md-1 mt-5">
+      <div class="card">
+        <div class="card-header">
+          <h5>Chat</h5>
+        </div>
+        <div id="chat" class="card-body">
+
+        </div>
+        <form id="messages-form" class="card-footer">
+          <div class="input-group">
+            <input class="form-control" type="text" name="" id="message">
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-success"><i class="fas fa-paper-plane"></i> Enviar</button>
+            </div>
+          </div>
+        </form>
+    
+      </div>
+    
+    </div>
+    
+     <!-- Lista de usuarios conectados -->
+    
+    <div class="col-md-3 mt-5">
+      <div class="card">
+        <div class="card-header">
+          <h6>Usuarios conectados</h6>
+        </div>
+        
+        <div class="card-body"> 
+          <div id="usernames">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
